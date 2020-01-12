@@ -1,0 +1,47 @@
+.gear-link-container {
+	/* Positioning to allow text to be centered over icon */
+	position: relative;
+	text-align: center;
+	margin-left: -60px;
+}
+
+.gear-link-container:hover {
+	text-decoration: underline;
+}
+
+.gear-link-icon {
+	width: 120px;
+}
+
+.gear-link-text {
+	/* Center text over icon */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	/* Styling */
+	text-decoration: inherit;
+	color: black;
+	background-color: white;
+}
+
+.active {
+	font-style: italic;
+}
+
+.offset {
+	left: 65px;
+	margin-top: -22px;
+	margin-bottom: -22px;
+}
+
+.rotate-forward {
+	animation: rotate 25s linear infinite;
+}
+
+.rotate-reversed {
+	animation: rotate 25s linear infinite reverse ;
+}
+
+@keyframes rotate { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

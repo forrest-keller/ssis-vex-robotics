@@ -1,0 +1,109 @@
+@import '~antd/dist/antd.css';
+
+/* START layout formating */
+#root {
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+	padding-right: 10vw;
+	padding-left: 10vw;
+}
+.sider {
+	background-color: white;
+}
+
+.content {
+	background-color: white;
+	padding-left: 30px;
+}
+
+.side-nav {
+	padding: 20px;
+}
+
+.footer {
+	text-align: center;
+}
+/* END layout formating */
+
+/* START typography styling */
+h1 {
+	font-size: 36px;
+}
+p {
+	font-size: 15px;
+	font-weight: 500;
+}
+/* START typography styling */
+
+.centered-text-container {
+	/* Positioning to allow text to be centered over image */
+	position: relative;
+	text-align: center;
+}
+
+.centered-text {
+	/* Center logo text over image */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.social-icon {
+	font-size: 50px;
+}
+
+.footer > * {
+	margin: 5px;
+}
+
+.footer-text {
+	color: rgb(175, 175, 175);
+	font-size: 12px;
+}
+
+.hero-photo {
+	width: 100%;
+	height: 450px;
+	object-fit: cover;
+	margin-bottom: 20px;
+}
+
+.member-card {
+	width: 200px;
+	float: left;
+	margin: 20px;
+}
+
+.header-photo {
+	margin-bottom: 20px;
+	height: 70px;
+}
+
+.learn-card {
+	width: 200px;
+	margin: 20px;
+	float: left;
+}
+
+.learn-card:hover {
+	box-shadow: 0px 0px 20px rgb(212, 212, 212);
+}
+
+.learn-card-photo {
+	height: 150px;
+	object-fit: cover;
+}
+
+.join-top-card {
+	text-align: center;
+	float: left;
+	margin: 20px;
+}
+
+.join-top-card-image {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	border-radius: 50%;
+}
