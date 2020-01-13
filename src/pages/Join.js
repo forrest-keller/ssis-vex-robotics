@@ -20,6 +20,7 @@ export default function Join() {
 				<meta name="description" content="Information about joining the SSIS VEX Robotics team." />
 			</Helmet>
 			{pageFields?.headerPhoto ? <img className="header-photo" alt={pageFields?.pageName} src={pageFields?.headerPhoto?.fields?.file?.url + '?h=100'} /> : <Title level={1}>{pageFields?.pageName}</Title>}
+			<hr />
 			<Row>
 				{
 					pageFields?.topCards?.map(topCard => (
@@ -30,6 +31,7 @@ export default function Join() {
 					))
 				}
 			</Row>
+			<hr />
 			<div>{documentToPageContent(pageFields?.content)}</div>
 		</div>
 	)
