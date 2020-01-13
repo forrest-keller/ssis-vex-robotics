@@ -23,7 +23,7 @@ export default function Join() {
 			<Row>
 				{
 					pageFields?.topCards?.map(topCard => (
-						<Col className="join-top-card">
+						<Col span={8} key={topCard?.sys?.id} className="join-top-card">
 							<img className="join-top-card-image" src={`${topCard?.fields?.file?.url}?w=300`} alt={topCard?.fields?.description} />
 							<h2>{topCard?.fields?.title}</h2>
 						</Col>

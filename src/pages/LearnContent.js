@@ -13,8 +13,6 @@ export default function LearnContent() {
 		'fields.url': params?.tab
 	})?.items?.[0]?.fields;
 
-	console.log(pageFields)
-
 	return (
 		<div>
 			<Helmet>

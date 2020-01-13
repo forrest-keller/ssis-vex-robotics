@@ -24,7 +24,7 @@ export default function About() {
 			{pageFields?.headerPhoto ? <img className="header-photo" alt={pageFields?.pageName} src={pageFields?.headerPhoto?.fields?.file?.url + '?h=200'} /> : <Title level={1}>{pageFields?.pageName}</Title>}
 			<img className="hero-photo" alt={pageFields?.heroPhoto?.fields?.file?.description} src={pageFields?.heroPhoto?.fields?.file?.url + '?w=800'} />
 			<div>{documentToPageContent(pageFields?.content)}</div>
-			<h1>Members</h1>
+			<h1>Leaders</h1>
 			<Members members={pageFields?.members} />
 		</div>
 	)
