@@ -33,7 +33,7 @@ p {
 	font-size: 15px;
 	font-weight: 500;
 }
-/* START typography styling */
+/* END typography styling */
 
 .centered-text-container {
 	/* Positioning to allow text to be centered over image */
@@ -64,7 +64,6 @@ p {
 
 .hero-photo {
 	width: 100%;
-	height: 450px;
 	object-fit: cover;
 	margin-bottom: 20px;
 }

@@ -21,7 +21,7 @@ export default function About() {
 				<meta name="description" content="Learn more about the SSIS VEX Robotics team!" />
 			</Helmet>
 
-			{pageFields?.headerPhoto ? <img className="header-photo" alt={pageFields?.pageName} src={pageFields?.headerPhoto?.fields?.file?.url + '?h=200'} /> : <Title level={1}>{pageFields?.pageName}</Title>}
+			{pageFields?.headerPhoto ? <img className="header-photo" alt={pageFields?.pageName} src={pageFields?.headerPhoto?.fields?.file?.url + '?h=300'} /> : <Title level={1}>{pageFields?.pageName}</Title>}
 			<img className="hero-photo" alt={pageFields?.heroPhoto?.fields?.file?.description} src={pageFields?.heroPhoto?.fields?.file?.url + '?w=800'} />
 			<div>{documentToPageContent(pageFields?.content)}</div>
 			<h1>Leaders</h1>
